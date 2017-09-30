@@ -33,9 +33,9 @@ public class TestCaptchaClient {
                         .build();
 
         calculateCaptchaClient = CaptchaClient.create()
-                        .width(68)
-                        .height(22)
-                        .lineNum(2)
+                        .width(90)
+                        .height(30)
+                        .lineNum(1)
                         .yawp(0.01f)
                         .captchaStrategy(new CalculateCaptchaStrategy())
                         .transform(true)
