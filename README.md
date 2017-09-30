@@ -8,11 +8,21 @@ java验证码工具类，可选择英文验证码，中文验证码，算术验�
 
 二.效果图
 
+2.1 英文验证码
 
+![image](https://github.com/orclight/jcaptcha/blob/master/image/SimpleCaptchaStrategy.jpg)
 
+2.2 中文验证码
+
+![image](https://github.com/orclight/jcaptcha/blob/master/image/ChineseCaptchaStrategy.jpg)
+
+3.2 算术验证码
+
+![image](https://github.com/orclight/jcaptcha/blob/master/image/CalculateCaptchaStrategy.jpg)
 
 三.实例代码
 
+```java 
 import org.orclight.java.util.captha.CaptchaClient;
 import org.orclight.java.util.captha.bean.CaptchaBean;
 import org.orclight.java.util.captha.strategy.CalculateCaptchaStrategy;
