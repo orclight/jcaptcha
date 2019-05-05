@@ -2,18 +2,18 @@
 java验证码工具类，可选择英文验证码，中文验证码，算术验证码等策略
 
 
-一.功能描述
+一.功能概述
 
-  1.1 支持生成三种策略的验证码：字母验证码，中文验证码，算术验证码
+  1.1 支持策略：字母验证码，中文验证码，算术验证码
   
-  1.2 可设置验证码图片尺寸，背景色
+  1.2 可配置:验证码图片尺寸，背景色
   
-  1.3 可设置干扰项：干扰线条，干扰噪点
+  1.3 可配置：干扰项：干扰线条，干扰噪点
   
 
 二.效果图
 
-2.1 英文验证码
+2.1 字母验证码
 
 ![image](https://github.com/orclight/jcaptcha/blob/master/image/SimpleCaptchaStrategy.jpg)
 
@@ -42,7 +42,7 @@ import java.io.IOException;
 
 /**
  * Nothing seek, Nothing find.
- * author: shuzhilong
+ * author: orclight
  * Date: 2017/9/26 下午5:05
  * desc: (The role of this class is to ...)
  * To change this template use preferences | editor | File and code Templates
@@ -74,9 +74,9 @@ public class TestCaptchaClient {
     }
 
     public static void main(String[] args) {
-        getSimple("/Users/shuzhilong/Documents/temp/SimpleCaptchaStrategy.jpg");
-        getChinese("/Users/shuzhilong/Documents/temp/ChineseCaptchaStrategy.jpg");
-        getCalculate("/Users/shuzhilong/Documents/temp/CalculateCaptchaStrategy.jpg");
+        getSimple("/Users/yourpath/SimpleCaptchaStrategy.jpg");
+        getChinese("/Users/yourpath/ChineseCaptchaStrategy.jpg");
+        getCalculate("/Users/yourpath/CalculateCaptchaStrategy.jpg");
     }
 
     public static void getSimple(String filepath) {
