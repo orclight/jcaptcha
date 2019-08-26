@@ -1,17 +1,17 @@
 # jcaptcha
-java验证码工具类，可选择英文验证码，中文验证码，算术验证码等策略
+java验证码工具类，可选择英文验证码，中文验证码，算术验证码等策略，可继承策略类实现扩展。
 
 
-一.功能概述
+##一.功能概述
 
-  1.1 支持策略：字母验证码，中文验证码，算术验证码
+  支持策略：字母验证码，中文验证码，算术验证码
   
-  1.2 可配置:验证码图片尺寸，背景色
+  1.1 图片属性(可配置):验证码图片尺寸，背景色
   
-  1.3 可配置：干扰项：干扰线条，干扰噪点
+  1.2 干扰项(可配置)：干扰线条，干扰噪点
   
 
-二.效果图
+##二.效果图
 
 2.1 字母验证码
 
@@ -26,7 +26,7 @@ java验证码工具类，可选择英文验证码，中文验证码，算术验�
 ![image](https://github.com/orclight/jcaptcha/blob/master/image/CalculateCaptchaStrategy.jpg)
 
 
-三.实例代码
+##三.实例代码(demo)
 
 ```java 
 import org.orclight.java.util.captha.CaptchaClient;
